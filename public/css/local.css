@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none !important;
+}
+.col-md-8{
+    height: 1800px;
+    background-color: aqua
+}
+.col-md-4{
+    height: 1800px;
+}
+h4{
+    margin-top: 15px;
+    color: green;
+    
+}
+.frist_top{
+    width: 100%;
+    height: 160px;
+    /* background-color: red; */
+    border-top:1px grey dashed ;
+    position: relative;
+    margin-top: 18px
+}
+.fenmian{
+    width: 80px;
+    height: 120px;
+    margin-top:13px;
+    display: block; 
+}
+.right_text{
+   position: absolute;
+   left: 100px;
+   top: 5px
+}
+h5{
+    color: blue;
+}
+.play{
+    color: green;
+    position: absolute;
+    left: 100px;
+    top: 7px;
+    width: 50px
+}
+.col-md-4 h4{
+    margin-top: 70px;
+}
+.feilei{
+    margin-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.feilei a{
+    width: 40px;
+    height: 20px;
+    margin-right: 18px;
+    margin-top: 12px;
+    text-align: center;
+}
+/* 广告 */
+.img1{
+    display: block;
+    margin-top: 12px;
+    
+}
+.img1 img{
+    width: 95%;
+    height: 185px;
+}
+/* 一周口碑 */
+.koubei{
+    position: relative;
+}
+.koubei h4{
+    margin-top: 25px;
+}
+.data{
+    position: absolute;
+    right:0px;
+    top: -3px;
+}
+.koubei p{
+    border-bottom:1px grey dashed ;
+    margin-left: 17px;
+    line-height: 18px;
+    padding-bottom: 8px
+}
+/* 北美票房榜 */
+.beimei{
+    position: relative;
+}
+.beimei h4{
+    margin-top: 35px;
+}
+.beimei p{
+    border-bottom:1px grey dashed ;
+    margin-left: 17px;
+    line-height: 18px;
+    padding-bottom: 8px
+}
